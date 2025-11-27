@@ -29,6 +29,14 @@
             transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
             will-change: transform;
         }
+        .hover-glow {
+            cursor: pointer;
+            transition: filter 0.3s ease, transform 0.3s ease;
+        }
+        .hover-glow:hover {
+            filter: brightness(1.2) drop-shadow(0 0 8px rgba(255, 255, 255, 0.8));
+            transform: scale(1.05);
+        }
     </style>
 </head>
 <body class="bg-gray-50" style="margin: 0; padding: 0; overflow-x: hidden;">
@@ -41,7 +49,9 @@
                     <img src="images/logo.webp" alt="Logo" class="w-[180px] lg:w-[259px] h-auto">
                 </div>
                 <div class="flex items-center space-x-2 lg:space-x-4">
-                    <img src="images/home.webp" alt="Home" class="w-[120px] lg:w-[169px] h-auto">
+                    <a href="https://pc-mm88-link.rr88tino.workers.dev/" target="_blank" rel="noopener noreferrer">
+                        <img src="images/home.webp" alt="Home" class="w-[120px] lg:w-[169px] h-auto hover-glow">
+                    </a>
                 </div>
             </div>
         </div>
@@ -98,7 +108,9 @@
                 <!-- Support -->
                 <div class="border-2 text-[14px] lg:text-[17px] rounded-[2.5rem] bg-white flex flex-col lg:flex-row items-center justify-between px-3 py-2 lg:py-1 bg-[#ff0000] mt-4 lg:mt-2" style="border-color: #ff0000; max-width: 710px !important;margin: 30px auto;">
                     <span class="text-gray-700 text-xs lg:text-sm font-semibold text-center lg:text-left mb-2 lg:mb-0" style="font-weight: 860;">NẾU QUÝ KHÁCH CẦN HỖ TRỢ, VUI LÒNG LIÊN HỆ</span>
-                    <img src="images/admin-mm88.webp" alt="Admin rr88" class="w-[180px] lg:w-[231px] h-auto object-contain ml-[10px]">
+                    <a href="mailto:ADMIN@MM88.COM">
+                        <img src="images/admin-mm88.webp" alt="Admin rr88" class="w-[180px] lg:w-[231px] h-auto object-contain ml-[10px] hover-glow">
+                    </a>
                 </div>
             </div>
         </section>
@@ -200,7 +212,9 @@
                 <!-- Support -->
                 <div class="border-2 text-[14px] rounded-2xl lg:rounded-[2.5rem] bg-white flex flex-col items-center justify-between px-3 py-2 bg-[#ff0000] mt-4" style="border-color: #ff0000; max-width: 710px !important;margin: 30px auto;">
                     <span class="text-gray-700 text-xs font-semibold text-center mb-2" style="font-weight: 860;">NẾU QUÝ KHÁCH CẦN HỖ TRỢ, VUI LÒNG LIÊN HỆ</span>
-                    <img src="images/admin-mm88.webp" alt="Admin rr88" class="w-[180px] h-auto object-contain">
+                    <a href="mailto:ADMIN@MM88.COM">
+                        <img src="images/admin-mm88.webp" alt="Admin rr88" class="w-[180px] h-auto object-contain hover-glow">
+                    </a>
                 </div>
             </div>
         </div>
