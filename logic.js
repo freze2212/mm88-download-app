@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     const stepsIOS = [
-        { src: 'images/b1.webp', alt: 'Bước 1' },
-        { src: 'images/b2.webp', alt: 'Bước 2' },
-        { src: 'images/b3.webp', alt: 'Bước 3' },
+        { src: 'images/01.webp', alt: 'Bước 1' },
+        { src: 'images/02.webp', alt: 'Bước 2' },
+        { src: 'images/03.webp', alt: 'Bước 3' },
         { src: 'images/b4.webp', alt: 'Bước 4' },
         { src: 'images/b5.webp', alt: 'Bước 5' },
         { src: 'images/b6.webp', alt: 'Bước 6' },
@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', function () {
     ];
 
     const stepsAndroid = [
-        { src: 'images/b1-andr.webp', alt: 'Bước 1 Android' },
-        { src: 'images/b2-andr.webp', alt: 'Bước 2 Android' },
-        { src: 'images/b3-andr.webp', alt: 'Bước 3 Android' },
-        { src: 'images/b4-andr.webp', alt: 'Bước 4 Android' },
+        { src: 'images/01a.webp', alt: 'Bước 1 Android' },
+        { src: 'images/02a.webp', alt: 'Bước 2 Android' },
+        { src: 'images/03a.webp', alt: 'Bước 3 Android' },
+        { src: 'images/04a.webp', alt: 'Bước 4 Android' },
     ];
 
     function initSlider(sliderId, leftArrowId, rightArrowId, steps, mobileLeftArrowId = null, mobileRightArrowId = null) {
